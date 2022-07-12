@@ -7,9 +7,9 @@ public class Main{
 
         Scanner scan = new Scanner(System.in);
 
-        boolean javaDeveloper = true;
+        boolean javaProgrammer = true;
 
-        while(javaDeveloper) {
+        while(javaProgrammer) {
             System.out.println("How many months do you need to train coding Java to be a Java programmer?");
             int months = scan.nextInt();
 
@@ -19,11 +19,11 @@ public class Main{
 
             if (months >= 100) {
                 System.out.println("Yes, after 100 months your are a good java programmer.");
+                break;
             }
             else {
                 System.out.println("You are still a rookie.");
-                javaDeveloper = true;
-
+                javaProgrammer = true;
             }
         }
     }
