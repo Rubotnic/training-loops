@@ -1,30 +1,43 @@
 package org.example;
 
-import java.util.Scanner;
+import org.example.ElseIfEx.ElseIf;
+import org.example.ElseIfEx.ProgrammerIf;
+import org.example.LoopEx.*;
+import org.example.SwitchCase.SwitchStatement;
 
-public class Main{
+public class Main {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+//        ElseIf test2 = new ElseIf();
+//        test2.ifExer();
 
-        boolean javaProgrammer = true;
+//        ProgrammerIf test1 = new ProgrammerIf();
+//        test1.proIf();
 
-        while(javaProgrammer) {
-            System.out.println("How many months do you need to train coding Java to be a Java programmer?");
-            int months = scan.nextInt();
 
-            if (months >= 80 && months <= 90) {
-                System.out.println("O my god, hurry up man!");
-            }
+//        ForEachLoop test1 = new ForEachLoop();
+//        test1.HighLevel();
 
-            if (months >= 100) {
-                System.out.println("Yes, after 100 months your are a good java programmer.");
-                break;
-            }
-            else {
-                System.out.println("You are still a rookie.");
-                javaProgrammer = true;
-            }
-        }
+//        GeneralLoop test1 = new GeneralLoop();
+//        test1.genLoop();
+
+//        NormalLoop test1 = new NormalLoop();
+//        test1.normLoop();
+
+//        DoWhileLoop test3 = new DoWhileLoop();
+//        test3.doWhileLo();
+
+//        ElseIf test2 = new ElseIf();
+//        test2.ifExer2();
+
+        WhileLoop test6 = new WhileLoop();
+        test6.whileLo();
+
+//        SwitchStatement test4 = new SwitchStatement();
+//        test4.switStat();
+
+
+
+
     }
 }
